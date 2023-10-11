@@ -1,0 +1,4 @@
+<span *ngIf="!users">carregando ...</span>
+<ul *ngIf="users">
+    <li *ngFor="let user of users">{{ user.name }}</li>
+</ul>
